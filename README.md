@@ -14,8 +14,8 @@ Install Docker on Mac:
 
 After Docker is installed locally, run these command to make sure the image is built and then the container is started:
 
-```docker build -t heic_converter .``` \n
-```docker run --rm -v $(pwd):/app heic_converter```
+1. ```docker build -t heic_converter .```
+2. ```docker run --rm -v $(pwd):/app heic_converter```
 
 HEIC photos should be stored in the same folder as the python code and the Dockerfile.
 
